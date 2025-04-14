@@ -1,19 +1,20 @@
 <template>
   <v-app>
     <v-main>
-      <CreateOrganisation />
+      <UserManagement />
     </v-main>
   </v-app>
 </template>
 
 <script>
 // Import the CreateOrganization component
-import CreateOrganisation from './views/CreateOrganisation.vue'
+// import CreateOrganisation from './views/CreateOrganisation.vue'
+import UserManagement from './views/UserManagement.vue'
 
 export default {
   name: 'App',
   components: {
-    CreateOrganisation
+    UserManagement
   }
 }
 </script>
